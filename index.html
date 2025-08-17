@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam Checker</title>
+  <link rel="manifest" href="manifest.json">
+  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Exam Checker</h1>
+  <label>Number of items (max 50): 
+    <input type="number" id="numItems" min="1" max="50" value="10">
+    <button onclick="buildGrids()">Set</button>
+  </label>
+
+  <div id="grids" style="margin-top:1em;"></div>
+
+  <button onclick="checkScore()" style="margin-top:1em;">Score</button>
+  <h2 id="result"></h2>
+</body>
+</html>
