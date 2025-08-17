@@ -1,0 +1,9 @@
+{
+  "name": "Exam Checker",
+  "short_name": "Checker",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2c3e50",
+  "icons": []
+}
